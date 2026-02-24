@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Titanic</class>
+ <widget class="QMainWindow" name="Titanic">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Titanic</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAffichage">
+    <property name="title">
+     <string>Affichage</string>
+    </property>
+    <addaction name="actionPie"/>
+    <addaction name="actionBar"/>
+    <addaction name="actionMulti"/>
+    <addaction name="actionVoir_2"/>
+   </widget>
+   <addaction name="menuAffichage"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionPie"/>
+   <addaction name="actionBar"/>
+   <addaction name="actionMulti"/>
+   <addaction name="actionVoir"/>
+  </widget>
+  <action name="actionPie">
+   <property name="text">
+    <string>PieChart</string>
+   </property>
+  </action>
+  <action name="actionBar">
+   <property name="text">
+    <string>BarChart</string>
+   </property>
+  </action>
+  <action name="actionMulti">
+   <property name="text">
+    <string>MultiChart</string>
+   </property>
+  </action>
+  <action name="actionVoir">
+   <property name="text">
+    <string>Voir</string>
+   </property>
+  </action>
+  <action name="actionVoir_2">
+   <property name="text">
+    <string>Voir</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
